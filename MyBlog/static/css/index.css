@@ -1,0 +1,41 @@
+body {
+    background: url('/static/images/mainbg.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+
+}
+*{
+    color: white;
+}
+
+#navBar{
+    background-color: darkgreen;
+}
+#navBarHeader{
+    position: sticky;
+    top: 0;
+}
+.navBarItem {
+    color: whitesmoke;
+}
+.navBarItem:hover{
+    color: crimson;
+}
+#joinbtn{
+    background-color: lime;
+    border-radius: 10px;
+    width: 60px;
+}
+#joinbtn:hover{
+    background-color: darkgreen;
+}
+#aboutwriterdiv{
+    background-image: url('/static/images/aboutwriter.jpg');
+    background-size:100% 100%;
+    background-attachment:scroll;
+}
+#aboutwriterdiv h2{
+color: white;
+}
+
+
